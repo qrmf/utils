@@ -1,0 +1,183 @@
+<!--
+  Copyright 2021 Aiden Paul Garth <qrmf96427@outlook.com>
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+
+<!-- filename: prelim.html -->
+
+<!DOCTYPE html>
+<html lang="en-gb">
+  <head>
+    <!-- File Includes -->
+    <!-- | Bootstrap 4 (LICENSED under the MIT License) | -->
+    <!-- yes, I am being that lazy, I hate CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- HTML5 Witchcraft -->
+    <meta http-equiv="Content-Language" content="en-gb" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="application-name" content="Aiden Garth's Utility Page" />
+    <meta name="author" content="Aiden Paul Garth" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+    <title>Utils &bull; Timetables > Prelim</title>
+
+    <!-- GOOGLE IS EVERYWHERE, RUN AND HIDE! -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-E8PX7GTKRZ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-E8PX7GTKRZ');
+    </script>
+  </head>
+  <body>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+      <a href="https://github.com/qrmf96427" class="navbar-brand">Aiden Garth</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a href="../" class="nav-link">Home</span></a>
+          </li>
+          <li class="nav-item dropdown"> <!-- Timetables -->
+            <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownTimetableMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Timetables</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownTimetableMenuLink">
+              <a href="./class.html" class="dropdown-item">Class Timetable <span class="sr-only">(current)</a>
+              <a href="#" class="dropdown-item active">Prelim Timetable</a>
+              <a href="./exam.html" class="dropdown-item">Exam Timetable</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown"> <!-- OurCloud -->
+            <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownOurcloudMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">OurCloud</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownOurcloudMenuLink">
+              <a href="https://sites.google.com/ourcloud.buzz/public" class="dropdown-item" target="_blank" rel="noopener noreferrer">OurCloud Public</a>
+              <a href="https://sites.google.com/ourcloud.buzz/ourcloud.buzz" class="dropdown-item" target="_blank" rel="noopener noreferrer">Secure OurCloud</a>
+              <a href="https://mail.google.com/mail/u/0/#inbox" class="dropdown-item" target="_blank" rel="noopener noreferrer">Mail</a>
+              <a href="https://drive.google.com/drive/my-drive" class="dropdown-item" target="_blank" rel="noopener noreferrer">Drive</a>
+              <a href="https://classroom.google.com/h" class="dropdown-item" target="_blank" rel="noopener noreferrer">Classroom</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown"> <!-- Glow -->
+            <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownGlowMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Glow</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownGlowMenuLink">
+              <a href="https://www.rmunify.com" class="dropdown-item" target="_blank" rel="noopener noreferrer">RM Unify Launch Pad</a>
+              <a href="https://outlook.com/owa/glow.sch.uk" class="dropdown-item" target="_blank" rel="noopener noreferrer">Outlook</a>
+              <a href="https://office.com" class="dropdown-item" target="_blank" rel="noopener noreferrer">Office</a>
+              <a href="https://onedrive.live.com" class="dropdown-item" target="_blank" rel="noopener noreferrer">Onedrive</a>
+              <a href="https://teams.microsoft.com" class="dropdown-item" target="_blank" rel="noopener noreferrer">Teams</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown"> <!-- Other School-->
+            <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownGenericSchoolMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Generic School</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownGenericSchoolMenuLink">
+              <a href="https://scholar.hw.ac.uk" class="dropdown-item" target="_blank" rel="noopener noreferrer">Scholar</a>
+              <a href="https://sqa.org.uk" class="dropdown-item" target="_blank" rel="noopener noreferrer">SQA Main Site</a>
+              <!-- Big link because it likes saying that it is closed. -->
+              <a href="https://www.mysqa.org.uk/cs8/content/secure/my_homepage.jsp" class="dropdown-item" target="_blank" rel="noopener noreferrer">My SQA</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      <div class="container-fluid">
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Date</th>
+              <th scope="col">Time</th>
+              <th scope="col">Course ID</th>
+              <th scope="col">Course Name</th>
+              <th scope="col">Paper</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>08/12/2021</th>
+              <td>11:00 - 12:30</td>
+              <td>X824 76</td>
+              <td>Higher English</td>
+              <td>RUAE</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td>09/12/2021</th>
+              <td>10:00 - 12:30</td>
+              <td>X857 76</td>
+              <td>Higher Physics</td>
+              <td>N/A</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td>14/12/2021</th>
+              <td>13:30 - 15:00</td>
+              <td>X847 76</td>
+              <td>Higher Mathematics</td>
+              <td>Paper 1</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td>15/12/2021</th>
+              <td>09:00 - 09:50</td>
+              <td>X816 76</td>
+              <td>Higher Computing</td>
+              <td>N/A</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td>16/12/2021</th>
+              <td>09:00 - 09:50</td>
+              <td>X816 76</td>
+              <td>Higher Computing</td>
+              <td>N/A</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td>16/12/2021</th>
+              <td>13:30 - 15:00</td>
+              <td>X847 76</td>
+              <td>Higher Mathematics</td>
+              <td>Paper 2</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td>11/01/2022</th>
+              <td>09:00 - 09:45</td>
+              <td>X824 76</td>
+              <td>Higher English</td>
+              <td>Critical Essay</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+
+    <footer class="invisible">
+      &copy; 2021 Aiden Paul Garth, Available under the <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache 2.0 License</a>
+    </footer>
+  </body>
+</html>
